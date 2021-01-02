@@ -1,0 +1,162 @@
+name: Brix
+main: world.bentobox.brix.Brix
+version: ${version}${build.number}
+api-version: 1.14
+metrics: true
+icon: "SPONGE"
+repository: "BentoBoxWorld/Brix"
+
+authors: tastybento
+
+permissions:    
+  brix.island:
+   description: Allow island command usage
+   default: true
+  brix.island.create:
+    description: Allow island creation
+    default: true
+  brix.island.home:
+    description: Allow teleporting to player island
+    default: true
+  brix.island.sethome:
+    description: Let the player use the sethome command
+    default: true
+  brix.island.info:
+    description: Let the player check other players info
+    default: true
+  brix.island.lock:
+    description: Allows island locking
+    default: true
+  brix.island.near:
+    description: Players can see nearby island names
+    default: true
+  brix.island.expel:
+    description: Allows expelling of visitors
+    default: true
+  brix.island.ban:
+    description: Allows banning of visitors
+    default: true
+  brix.island.settings:
+    description: Player can see server settings
+    default: true
+  brix.island.language:
+    description: Player can select a language
+    default: true
+  brix.island.name:
+    description: Player can set the name of their island
+    default: true
+  brix.island.spawn:
+    description: Player can use the island spawn command if spawn exists
+    default: true
+  brix.island.reset:
+    description: Player can use the island reset or restart command
+    default: true  
+  brix.island.team:
+    description: Let a player use team command
+    default: true
+  brix.island.team.setowner:
+    description: Let a player change the team owner
+    default: true
+  brix.island.team.invite:
+    description: Let a player invite others
+    default: true
+  brix.island.team.reject:
+    description: Let a player reject invites
+    default: true
+  brix.island.team.leave:
+    description: Let a player leave the team
+    default: true
+  brix.island.team.kick:
+    description: Let a player kick team members
+    default: true
+  brix.island.team.accept:
+    description: Let a player accept invitations
+    default: true
+  brix.island.team.trust:
+    description: Let a player use team trust commands
+    default: true
+  brix.island.team.coop:
+    description: Let a player use team coop commands
+    default: true
+  brix.island.team.promote:
+    description: Let a player use promote commands
+    default: true
+  brix.settings.*:
+    description: Allow use of settings on island
+    default: true
+  brix.mod.info:
+    description: Let a moderator see info on a player
+    default: op
+  brix.mod.clearreset:
+    description: Allow clearing of island reset limit
+    default: false
+  brix.mod.bypasscooldowns:
+    description: Allow moderator to bypass cooldowns
+    default: op
+  brix.mod.bypassdelays:
+    description: Allow moderator to bypass delays
+    default: op
+  brix.mod.bypassprotect:
+    description: Allow moderator to bypass island protection
+    default: op
+  brix.mod.bypassexpel:
+    description: Allow moderator to bypass island expulsion
+    default: op
+  brix.mod.switch:
+    description: Allows moderator to switch bypass protection on and off
+    default: op
+  brix.mod.lock:
+    description: Locks or unlocks an island
+    default: op
+  brix.mod.bypasslock:
+    description: Bypasses an island lock
+    default: op
+  brix.mod.bypassban:
+    description: Bypasses island ban
+    default: op  
+  brix.mod.team:
+    description: Enables modification of teams via kick and add commands
+    default: false
+  brix.admin.tp:
+    description: Allows teleport to an island
+    default: op    
+  brix.admin.clearresetall:
+    description: Allow clearing of island reset limit of all players
+    default: op
+  brix.admin.reload:
+    description: Reload the config.yml
+    default: op
+  brix.admin.delete:
+    description: Let a player completely remove a player (including island)
+    default: op
+  brix.admin.register:
+    description: Let a player register the nearest island to another player.
+    default: op
+  brix.admin.unregister:
+    description: Removes a player from an island without deleting the island blocks.
+    default: op
+  brix.admin.setspawn:
+    description: Allows use of spawn tools
+    default: op
+  brix.admin.setrange:
+    description: Allows setting of island protection range
+    default: op
+  brix.admin.settingsreset:
+    description: Resets all the islands to default protection settings
+    default: op
+  brix.admin.noban:
+    description: Player cannot be banned from an island
+    default: op
+  brix.admin.noexpel:
+    description: Player cannot be expelled from an island
+    default: op
+  brix.admin.setlanguage:
+    description: Resets all player languages and sets the default language
+    default: op
+  brix.admin.getrank:
+    description: Get a player's rank
+    default: op
+  brix.admin.setrank:
+    description: Set a player's rank
+    default: op
+    
