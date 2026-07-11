@@ -1,7 +1,7 @@
 name: Brix
 main: world.bentobox.brix.Brix
 version: ${version}${build.number}
-api-version: 1.14
+api-version: 3.0.0
 metrics: true
 icon: "SPONGE"
 repository: "BentoBoxWorld/Brix"
